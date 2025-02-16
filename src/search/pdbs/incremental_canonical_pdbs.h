@@ -4,6 +4,7 @@
 #include "pattern_cliques.h"
 #include "pattern_collection_information.h"
 #include "types.h"
+#include <limits>
 
 #include "../task_proxy.h"
 

@@ -46,6 +46,9 @@ fast_downward_report_bitwidth()
 fast_downward_set_configuration_types()
 fast_downward_add_profile_build()
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS YES)  # create compile_commands.json for vscode, vim, and clang friends
+
+
 set(FAST_DOWNWARD_MAIN_CMAKELISTS_READ TRUE)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/bin)

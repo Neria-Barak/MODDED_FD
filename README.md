@@ -6,6 +6,8 @@ You can build this project and use it as a landmark extractor.
 
 For more information on how to use Fast Downward, please go to their official website: http://www.fast-downward.org/.
 
+Note for clangd users:  Make sure to install the latest libstd++-*-dev package.
+
 -------------------------------------------------------------------------------------
 
 Fast Downward is a domain-independent planning system.
